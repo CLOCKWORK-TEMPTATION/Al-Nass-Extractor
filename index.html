@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Al-Nass Extractor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Polyfill process.env for browser environment to prevent crashes in config modules
+      window.process = {
+        env: {
+          NODE_ENV: 'development',
+          // API_KEY will be injected by the environment or remain empty to trigger prompt
+          API_KEY: '' 
+        }
+      };
+      
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              background: '#0A0A0F',
+              surface: 'rgba(26, 28, 35, 0.9)', 
+              primary: '#5A5296',
+              secondary: '#3DB89A',
+              lavender: '#9A8EB3',
+              subtle: 'rgba(255, 255, 255, 0.1)',
+              textMain: '#FFFFFF',
+              textMuted: '#94A3B8',
+              input: '#12121A'
+            },
+            fontFamily: {
+              arabic: ['Noto Kufi Arabic', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-primary: #0A0A0F;
+        --bg-card: rgba(26, 28, 35, 0.7);
+        --accent-purple: #5A5296;
+        --accent-teal: #3DB89A;
+        --accent-lavender: #9A8EB3;
+        --text-primary: #FFFFFF;
+        --text-secondary: #94A3B8;
+        --border-subtle: rgba(255, 255, 255, 0.06);
+        --glow-purple: rgba(90, 82, 150, 0.15);
+        --glow-teal: rgba(61, 184, 154, 0.12);
+      }
+      body {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+        background-color: var(--bg-primary); /* Fallback */
+      }
+      
+      /* Glassmorphism Utilities */
+      .glass-panel {
+        background-color: var(--bg-card);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid var(--border-subtle);
+      }
+      
+      .glass-input {
+        background-color: #12121A;
+        border: 1px solid var(--border-subtle);
+        color: var(--text-primary);
+      }
+      .glass-input:focus {
+        border-color: var(--accent-purple);
+        outline: none;
+        box-shadow: 0 0 0 2px var(--glow-purple);
+      }
+
+      /* Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--bg-primary);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2D2D3A; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--accent-purple); 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@3.11.174",
+    "js-tiktoken": "https://esm.sh/js-tiktoken@1.0.10",
+    "zod": "https://esm.sh/zod@3.22.4",
+    "@huggingface/inference": "https://esm.sh/@huggingface/inference@2.6.4",
+    "dotenv": "https://esm.sh/dotenv@^17.2.3",
+    "pino": "https://esm.sh/pino@^10.1.1",
+    "p-limit": "https://esm.sh/p-limit@^7.2.0",
+    "commander": "https://esm.sh/commander@^14.0.2",
+    "@anthropic-ai/sdk": "https://esm.sh/@anthropic-ai/sdk@^0.71.2"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

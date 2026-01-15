@@ -1,0 +1,5 @@
+{
+  "name": "Al-Nass Extractor",
+  "description": "A comprehensive Arabic text processing suite. Pipeline: 1. OCR Extraction -> 2. Structural Parsing -> 3. Semantic Splitting -> 4. AI Classification & Augmentation (Enrichment).",
+  "requestFramePermissions": []
+}

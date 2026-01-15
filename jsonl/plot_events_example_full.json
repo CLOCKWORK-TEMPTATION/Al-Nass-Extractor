@@ -1,0 +1,599 @@
+{
+  "plot_event_id": "event_001",
+  "novel_id": "novel_001",
+  "novel_title": "ظلال الزمن",
+  
+  "basic_info": {
+    "event_title": "المواجهة في ساحة باب زويلة",
+    "event_type": "صراع_مباشر",
+    "importance_level": "حاسم",
+    "plot_function": "ذروة_درامية",
+    "chapter_location": "الفصل 18",
+    "page_range": "245-268"
+  },
+  
+  "temporal_context": {
+    "story_time": {
+      "date": "15 يونيو 1947",
+      "time_of_day": "مساءً",
+      "exact_time": "الساعة السابعة والنصف",
+      "duration": "45 دقيقة تقريباً",
+      "weather": "صيف حار، الشمس على وشك الغروب"
+    },
+    "narrative_time": {
+      "sequence_order": 45,
+      "narrative_position": "ثلاثة أرباع الرواية",
+      "time_treatment": "زمن_واقعي",
+      "flashbacks": [],
+      "foreshadowing": [
+        "إشارات سابقة في الفصل 5 عن هذا اللقاء",
+        "حلم أحمد في الفصل 12"
+      ]
+    }
+  },
+  
+  "spatial_context": {
+    "primary_setting_id": "set_001",
+    "primary_setting_name": "ساحة باب زويلة، حي الجمالية",
+    "specific_location": "أمام المسجد، قرب النافورة القديمة",
+    "spatial_significance": "مكان عام، شهود كثيرون، رمزية تاريخية",
+    "atmosphere": "متوتر، حار، مزدحم بالناس العائدين من الصلاة"
+  },
+  
+  "characters_involved": [
+    {
+      "character_id": "char_001",
+      "character_name": "أحمد الخطيب",
+      "role_in_event": "بطل_محوري",
+      "motivation": "الدفاع عن شرف أخته والعائلة",
+      "emotional_state_before": "غضب_وعزم",
+      "emotional_state_during": "حماس_معركة_مع_خوف_داخلي",
+      "emotional_state_after": "راحة_مختلطة_بقلق",
+      "actions": [
+        "يواجه الشيخ منصور بكلمات حادة",
+        "يلكم منصور على وجهه",
+        "يدافع عن نفسه ضد أعوان منصور",
+        "يلقي خطاباً عفوياً للجمهور"
+      ],
+      "dialogue_count": 12,
+      "internal_monologue": "هل أفعل الصواب؟ لكن ليس لي خيار... الشرف أغلى من الحياة"
+    },
+    {
+      "character_id": "char_002",
+      "character_name": "الشيخ منصور العزبي",
+      "role_in_event": "خصم_رئيسي",
+      "motivation": "الانتقام من أحمد وإذلاله علناً",
+      "emotional_state_before": "غطرسة_وثقة_زائدة",
+      "emotional_state_during": "صدمة_ثم_غضب_شديد",
+      "emotional_state_after": "إذلال_ورغبة_في_الثأر",
+      "actions": [
+        "يهين أحمد وعائلته أمام الناس",
+        "يأمر أعوانه بضرب أحمد",
+        "يسقط أرضاً من لكمة أحمد (إذلال علني)",
+        "يغادر الساحة وهو يقسم بالانتقام"
+      ],
+      "dialogue_count": 8
+    },
+    {
+      "character_id": "char_003",
+      "character_name": "ليلى المنصوري",
+      "role_in_event": "شاهد_ومتأثر",
+      "motivation": "قلق على سلامة أحمد",
+      "emotional_state_before": "خوف وترقب",
+      "emotional_state_during": "رعب ممزوج بإعجاب",
+      "emotional_state_after": "قرار بالوقوف مع أحمد",
+      "actions": [
+        "تراقب من بعيد (مختبئة في زقاق)",
+        "تصرخ عندما يُضرب أحمد",
+        "تهرع إليه بعد انتهاء الصراع"
+      ],
+      "dialogue_count": 3,
+      "turning_point": "هذا الحدث يجعلها تقرر التمرد على عائلتها"
+    },
+    {
+      "character_id": "char_010",
+      "character_name": "الحاج عبد الوهاب (والد أحمد)",
+      "role_in_event": "شاهد_ومشجع_خفي",
+      "motivation": "فخر بشجاعة ابنه مع قلق أبوي",
+      "emotional_state_during": "فخر ممزوج بخوف",
+      "actions": [
+        "يراقب من بعيد دون تدخل",
+        "يمنع أصدقاءه من التدخل ('دعوه يكبر بنفسه')",
+        "يبتسم بفخر عندما ينجح أحمد"
+      ],
+      "dialogue_count": 2
+    }
+  ],
+  
+  "crowd_role": {
+    "crowd_size": "حوالي 100 شخص",
+    "crowd_sentiment": "منقسم",
+    "factions": [
+      {
+        "faction": "مؤيدو أحمد",
+        "size": "40%",
+        "description": "أهل الحي الفقراء الذين يكرهون الشيخ منصور"
+      },
+      {
+        "faction": "مؤيدو منصور",
+        "size": "20%",
+        "description": "أعوانه ومن يخشونه"
+      },
+      {
+        "faction": "محايدون",
+        "size": "40%",
+        "description": "متفرجون فضوليون"
+      }
+    ],
+    "crowd_reactions": [
+      "صمت مطبق في البداية",
+      "همسات وتعليقات خافتة",
+      "تشجيع خافت لأحمد",
+      "تصفيق عفوي بعد سقوط منصور",
+      "تفرق سريع خوفاً من الشرطة"
+    ],
+    "narrative_function": "الجمهور كشاهد يحمي أحمد ويمنحه شرعية شعبية"
+  },
+  
+  "event_sequence": {
+    "buildup": [
+      {
+        "step": 1,
+        "description": "أحمد يصل الساحة متعمداً في وقت صلاة المغرب",
+        "duration": "5 دقائق",
+        "tension_level": 3
+      },
+      {
+        "step": 2,
+        "description": "الشيخ منصور يخرج من المسجد محاطاً بأعوانه",
+        "duration": "3 دقائق",
+        "tension_level": 5
+      },
+      {
+        "step": 3,
+        "description": "أحمد يعترض طريق منصور ويطالبه بالاعتذار",
+        "duration": "2 دقيقة",
+        "tension_level": 7
+      }
+    ],
+    "climax": [
+      {
+        "step": 4,
+        "description": "منصور يهين أحمد وعائلته أمام الجميع",
+        "duration": "3 دقائق",
+        "tension_level": 9,
+        "dialogue_highlight": "'أنت وعائلتك لا تساوون نعل حذائي!'"
+      },
+      {
+        "step": 5,
+        "description": "أحمد يلكم منصور على وجهه، منصور يسقط",
+        "duration": "10 ثوان",
+        "tension_level": 10,
+        "turning_point": true,
+        "narrative_note": "لحظة الذروة المطلقة - الصدمة الكبرى"
+      },
+      {
+        "step": 6,
+        "description": "أعوان منصور يهجمون على أحمد، قتال جماعي",
+        "duration": "5 دقائق",
+        "tension_level": 9
+      }
+    ],
+    "resolution": [
+      {
+        "step": 7,
+        "description": "بعض أهل الحي يتدخلون لفض القتال",
+        "duration": "3 دقائق",
+        "tension_level": 6
+      },
+      {
+        "step": 8,
+        "description": "منصور يغادر ذليلاً وهو يتوعد أحمد",
+        "duration": "2 دقيقة",
+        "tension_level": 5,
+        "dialogue_highlight": "'سأجعلك تندم على هذا اليوم يا ابن الخطيب!'"
+      },
+      {
+        "step": 9,
+        "description": "أحمد يلقي كلمة قصيرة للجمهور عن الكرامة",
+        "duration": "3 دقائق",
+        "tension_level": 3,
+        "emotional_peak": "تحول أحمد إلى بطل شعبي"
+      }
+    ],
+    "aftermath": [
+      {
+        "step": 10,
+        "description": "ليلى تهرع لأحمد، لحظة رومانسية قصيرة",
+        "duration": "2 دقيقة",
+        "tension_level": 2
+      },
+      {
+        "step": 11,
+        "description": "الحاج عبد الوهاب يقترب من ابنه بفخر صامت",
+        "duration": "1 دقيقة",
+        "tension_level": 1,
+        "emotional_closure": "موافقة أبوية ضمنية"
+      }
+    ]
+  },
+  
+  "conflict_analysis": {
+    "conflict_type": "صراع_شخصي_مباشر",
+    "conflict_levels": [
+      {
+        "level": "فردي",
+        "description": "أحمد ضد منصور (انتقام شخصي، شرف)"
+      },
+      {
+        "level": "طبقي",
+        "description": "الفقراء ضد الأغنياء المستغلين"
+      },
+      {
+        "level": "قيمي",
+        "description": "الكرامة والشجاعة ضد الجبن والاستغلال"
+      },
+      {
+        "level": "اجتماعي",
+        "description": "التحدي للسلطة التقليدية"
+      }
+    ],
+    "stakes": {
+      "for_protagonist": "الشرف، السلامة الجسدية، مستقبل العائلة",
+      "for_antagonist": "الهيبة، السلطة في الحي",
+      "for_community": "تغيير ميزان القوى في الحي"
+    },
+    "power_dynamics": {
+      "before_event": "منصور مسيطر تماماً",
+      "during_event": "توازن متقلب",
+      "after_event": "أحمد يكتسب نفوذاً شعبياً، منصور يفقد هيبة"
+    }
+  },
+  
+  "causality": {
+    "immediate_causes": [
+      {
+        "cause": "إهانة منصور لأخت أحمد في السوق (الفصل 15)",
+        "event_id": "event_038"
+      },
+      {
+        "cause": "تحريض أصدقاء أحمد له على المواجهة (الفصل 16)",
+        "event_id": "event_040"
+      },
+      {
+        "cause": "حلم أحمد بجده يأمره بالشجاعة (الفصل 17)",
+        "event_id": "event_043"
+      }
+    ],
+    "root_causes": [
+      "الفوارق الطبقية الحادة",
+      "استغلال منصور للفقراء لسنوات",
+      "ثقافة الشرف التي تحتم الانتقام"
+    ],
+    "immediate_consequences": [
+      {
+        "consequence": "منصور يخطط للانتقام (يرسل بلطجية)",
+        "event_id": "event_047",
+        "chapter": "الفصل 19"
+      },
+      {
+        "consequence": "أحمد يصبح بطلاً شعبياً في الحي",
+        "event_id": null,
+        "chapter": "الفصول 19-22"
+      },
+      {
+        "consequence": "ليلى تقرر التمرد على عائلتها والارتباط بأحمد",
+        "event_id": "event_052",
+        "chapter": "الفصل 20"
+      },
+      {
+        "consequence": "الشرطة تستدعي أحمد للتحقيق (بتدخل من منصور)",
+        "event_id": "event_049",
+        "chapter": "الفصل 19"
+      }
+    ],
+    "long_term_consequences": [
+      "تغيير ميزان القوى في الحي",
+      "إلهام الشباب للمقاومة",
+      "بداية سقوط نفوذ منصور",
+      "تطور علاقة أحمد وليلى"
+    ]
+  },
+  
+  "thematic_connections": {
+    "primary_themes": [
+      {
+        "theme": "الشرف والكرامة",
+        "manifestation": "أحمد يخاطر بحياته للدفاع عن شرف أخته"
+      },
+      {
+        "theme": "الصراع_الطبقي",
+        "manifestation": "الفقير يتحدى الغني المستبد"
+      },
+      {
+        "theme": "الشجاعة_مقابل_الخوف",
+        "manifestation": "أحمد يتغلب على خوفه الداخلي"
+      }
+    ],
+    "symbolic_elements": [
+      {
+        "symbol": "باب زويلة",
+        "meaning": "الصمود التاريخي، البوابة بين القديم والجديد"
+      },
+      {
+        "symbol": "الغروب",
+        "meaning": "نهاية عصر (سلطة منصور) وبداية آخر"
+      },
+      {
+        "symbol": "اللكمة",
+        "meaning": "الثورة المفاجئة ضد الظلم"
+      }
+    ]
+  },
+  
+  "character_development": {
+    "protagonist_arc": {
+      "character_id": "char_001",
+      "before_event": "شاب محبط، مترد، يخاف المواجهة",
+      "during_event": "يكتشف شجاعته الحقيقية",
+      "after_event": "رجل واثق، قائد شعبي ناشئ",
+      "transformation_type": "من_الخوف_إلى_الشجاعة",
+      "irreversibility": "لا يمكنه العودة لشخصيته القديمة"
+    },
+    "antagonist_impact": {
+      "character_id": "char_002",
+      "transformation": "من الغطرسة إلى الإذلال والرغبة المحمومة في الانتقام"
+    },
+    "supporting_character_shifts": [
+      {
+        "character_id": "char_003",
+        "shift": "من المراقبة السلبية إلى القرار بالفعل"
+      }
+    ]
+  },
+  
+  "narrative_techniques": {
+    "pacing": "سريع مع إبطاء في اللحظات الحاسمة",
+    "point_of_view": "راوي عليم مع تركيز على منظور أحمد",
+    "pov_shifts": [
+      {
+        "moment": "عندما يسقط منصور",
+        "shift_to": "منظور ليلى (لتوضيح تأثير المشهد عليها)"
+      }
+    ],
+    "time_treatment": "زمن واقعي مع توقف قصير عند اللكمة (slow motion أدبي)",
+    "language_style": "فصحى سردية مع حوارات عامية، أسلوب متوتر",
+    "sensory_details": [
+      "بصري: غبار الساحة، ألوان الغروب، دم على وجه منصور",
+      "سمعي: صيحات الجمهور، لهاث المقاتلين، صدى الأذان",
+      "شمي: عرق الرجال، بخور من المسجد",
+      "لمسي: حرارة الهواء، ألم اللكمات"
+    ],
+    "tension_building": [
+      "تأخير اللحظة الحاسمة بحوار طويل",
+      "وصف تفصيلي لتعابير الوجوه",
+      "تقطيع المشهد بومضات من ذكريات أحمد"
+    ]
+  },
+  
+  "dialogue_highlights": [
+    {
+      "speaker_id": "char_001",
+      "speaker_name": "أحمد",
+      "text": "يا منصور، أنا هنا. قل في وجهي ما قلته عن أختي!",
+      "tone": "حاد_متحدٍ",
+      "language": "فصحى مع لمسة عامية",
+      "narrative_impact": "إعلان التحدي المباشر"
+    },
+    {
+      "speaker_id": "char_002",
+      "speaker_name": "منصور",
+      "text": "أنت وعائلتك لا تساوون نعل حذائي! عُد من حيث أتيت يا كلب قبل أن أجعلك عبرة!",
+      "tone": "متعالٍ_مستفز",
+      "language": "فصحى متكلفة",
+      "narrative_impact": "الإهانة التي تستدعي الفعل"
+    },
+    {
+      "speaker_id": "char_001",
+      "speaker_name": "أحمد (بعد اللكمة)",
+      "text": "نعلُ حذائي؟ ها... ذُق نعل حذائي الآن!",
+      "tone": "غضب_منتصر",
+      "language": "عامية",
+      "narrative_impact": "الانتقام اللفظي بعد الجسدي"
+    },
+    {
+      "speaker_id": "char_001",
+      "speaker_name": "أحمد (في خطابه النهائي)",
+      "text": "يا أهل الحي، كم سنبقى نرضى بالذل؟ الكرامة ليست رفاهية، بل هي الحياة نفسها!",
+      "tone": "حماسي_ثوري",
+      "language": "فصحى بسيطة",
+      "narrative_impact": "تحويل الحدث الشخصي إلى قضية عامة"
+    }
+  ],
+  
+  "symbolism_and_imagery": {
+    "visual_imagery": [
+      "غروب الشمس خلف باب زويلة (رمز التحول)",
+      "ظلال طويلة للمآذن على الساحة",
+      "دم على وجه منصور الأبيض (تدنيس الطهارية المزيفة)",
+      "غبار ذهبي يرقص في ضوء الغروب"
+    ],
+    "symbolic_actions": [
+      {
+        "action": "اللكمة",
+        "symbolism": "الثورة ضد الظلم، كسر الخوف"
+      },
+      {
+        "action": "سقوط منصور أرضاً",
+        "symbolism": "سقوط الطغاة حتمي"
+      },
+      {
+        "action": "أحمد يمد يده لمساعدة منصور ثم يسحبها",
+        "symbolism": "الرحمة المستحيلة، قطع الجسور"
+      }
+    ],
+    "color_symbolism": {
+      "red": "الدم، الغضب، الثورة",
+      "gold": "ضوء الغروب - التحول",
+      "white": "جلباب منصور المتسخ - الطهارية المزيفة",
+      "brown": "الأرض، الأصالة، الحي الشعبي"
+    }
+  },
+  
+  "foreshadowing_and_callbacks": {
+    "foreshadowing_fulfilled": [
+      {
+        "earlier_hint": "حلم أحمد في الفصل 12 برؤية باب زويلة يفتح",
+        "fulfillment": "هذا الحدث يفتح له باب المجد"
+      },
+      {
+        "earlier_hint": "جد أحمد يقول له في الفصل 5: 'يوماً ما ستواجه من هو أقوى منك'",
+        "fulfillment": "تحقق الآن"
+      }
+    ],
+    "callbacks": [
+      {
+        "reference": "موقف مشابه في الفصل 3 حيث خاف أحمد من مواجهة",
+        "contrast": "هنا لا يخاف، تحول واضح"
+      }
+    ],
+    "new_foreshadowing": [
+      "تهديد منصور النهائي يشير لأحداث خطيرة قادمة",
+      "نظرة ليلى الحاسمة تنبئ بقرار كبير"
+    ]
+  },
+  
+  "emotional_trajectory": {
+    "tension_curve": [
+      {"moment": "بداية الحدث", "level": 3},
+      {"moment": "ظهور منصور", "level": 5},
+      {"moment": "الإهانة اللفظية", "level": 7},
+      {"moment": "قبل اللكمة مباشرة", "level": 9},
+      {"moment": "اللكمة", "level": 10},
+      {"moment": "القتال الجماعي", "level": 9},
+      {"moment": "فض القتال", "level": 6},
+      {"moment": "خطاب أحمد", "level": 4},
+      {"moment": "لحظة رومانسية", "level": 2}
+    ],
+    "emotional_beats": [
+      "خوف → غضب → حماس → رعب → انتصار → فخر → راحة → حب"
+    ],
+    "catharsis": {
+      "for_protagonist": "تحرر من الخوف، إثبات للذات",
+      "for_reader": "رضا عن معاقبة الظالم، أمل في التغيير"
+    }
+  },
+  
+  "reader_engagement": {
+    "suspense_elements": [
+      "هل سينجو أحمد من الضرب؟",
+      "كيف سيرد منصور؟",
+      "ماذا ستفعل ليلى؟"
+    ],
+    "surprise_elements": [
+      "سرعة سقوط منصور (غير متوقعة)",
+      "تدخل الحاج عبد الوهاب الصامت (مفاجئ ومؤثر)",
+      "ظهور ليلى علناً (خرق للأعراف)"
+    ],
+    "emotional_hooks": [
+      "التعاطف مع أحمد (البطل المظلوم)",
+      "الكراهية لمنصور (الشرير المتغطرس)",
+      "القلق على سلامة أحمد"
+    ]
+  },
+  
+  "cultural_and_historical_accuracy": {
+    "period_accurate_elements": [
+      "عدم تدخل الشرطة الفوري (الشرطة قليلة في الأحياء الشعبية)",
+      "القتال بالأيدي (السلاح غير شائع)",
+      "دور الجمهور كشاهد وحَكَم",
+      "أهمية الشرف كمحرك للأحداث"
+    ],
+    "cultural_authenticity": [
+      "المواجهة العلنية كوسيلة لاستعادة الشرف",
+      "دور الأب المتفرج (لا يتدخل ليترك الابن 'يرجّل')",
+      "سرعة تجمع الحشد (فضول شعبي)",
+      "الخطابة العفوية (تقليد عربي)"
+    ]
+  },
+  
+  "intertextuality": {
+    "literary_echoes": [
+      {
+        "reference": "مشهد المواجهة يستدعي ملاحم الفروسية العربية",
+        "work": "سيرة عنترة"
+      },
+      {
+        "reference": "البطل الشعبي يواجه الظالم",
+        "work": "روايات نجيب محفوظ الواقعية"
+      }
+    ],
+    "archetypal_patterns": [
+      "البطل يتحدى التنين (منصور كتنين رمزي)",
+      "لحظة التحول (Hero's Journey)"
+    ]
+  },
+  
+  "narrative_significance": {
+    "plot_importance": "حاسم - نقطة تحول رئيسية",
+    "character_importance": "عالية جداً - تطور أحمد الأكبر",
+    "thematic_importance": "مركزي - تجسيد الثيمة الرئيسية",
+    "structural_role": "ذروة الصراع الثانوية (سيتبعها ذروة أكبر)",
+    "irreversibility": "عالية - لا عودة للوضع السابق"
+  },
+  
+  "alternative_outcomes_considered": {
+    "note": "في مسودات سابقة",
+    "alternatives": [
+      {
+        "outcome": "منصور ينتصر ويذل أحمد",
+        "reason_rejected": "يقتل الأمل ويضعف دافع القارئ"
+      },
+      {
+        "outcome": "الشرطة تتدخل وتعتقل الجميع",
+        "reason_rejected": "يقطع الذروة الدرامية"
+      },
+      {
+        "outcome": "أحمد يقتل منصور",
+        "reason_rejected": "مبالغة، وسيدمر أحمد (قاتل)"
+      }
+    ]
+  },
+  
+  "connections_to_other_events": {
+    "previous_events": [
+      {"event_id": "event_015", "title": "أول لقاء بين أحمد ومنصور", "relation": "بناء العداوة"},
+      {"event_id": "event_038", "title": "إهانة أخت أحمد", "relation": "السبب المباشر"},
+      {"event_id": "event_043", "title": "حلم أحمد", "relation": "تحفيز نفسي"}
+    ],
+    "subsequent_events": [
+      {"event_id": "event_047", "title": "محاولة اغتيال أحمد", "relation": "انتقام منصور"},
+      {"event_id": "event_052", "title": "قرار ليلى بالهرب", "relation": "نتيجة مباشرة"},
+      {"event_id": "event_060", "title": "الذروة النهائية", "relation": "تصعيد الصراع"}
+    ]
+  },
+  
+  "tags": [
+    "صراع",
+    "مواجهة_علنية",
+    "شرف",
+    "ذروة",
+    "تحول_شخصية",
+    "عنف_جسدي",
+    "جمهور_شاهد",
+    "انتصار_مؤقت",
+    "رمزية_تاريخية",
+    "طبقي"
+  ],
+  
+  "metadata": {
+    "creation_date": "2024-01-15",
+    "last_updated": "2024-01-20",
+    "created_by": "research_team_001",
+    "version": "1.5",
+    "quality_score": 98,
+    "completeness": "شامل_جداً",
+    "word_count_in_novel": 6800,
+    "research_notes": "استند الحدث على قصص شفوية عن مواجهات شعبية في الأحياء القديمة"
+  }
+}

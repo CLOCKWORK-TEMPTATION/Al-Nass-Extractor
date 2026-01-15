@@ -1,0 +1,230 @@
+[
+  {
+    "dialogue_id": "dial_001",
+    "novel_id": "novel_001",
+    "novel_title": "ظلال التحرير",
+    "chapter": 3,
+    "scene_number": 2,
+    "page_number": 45,
+    
+    "metadata": {
+      "word_count": 287,
+      "exchange_count": 8,
+      "duration_estimate": "3-5 دقائق",
+      "importance_level": "high",
+      "dialogue_type": "romantic_conflict",
+      "tags": ["مواجهة", "عاطفي", "نقطة تحول", "تطور علاقة"],
+      "narrative_function": "كشف الصراع الداخلي + تطوير العلاقة"
+    },
+    
+    "context": {
+      "location": "مقهى الفيشاوي",
+      "time": "مساءً، حوالي الساعة 8",
+      "weather": "بارد وماطر",
+      "atmosphere": "دافئ من الداخل، صخب خافت",
+      "preceding_events": [
+        "أحمد شارك في مظاهرة لأول مرة",
+        "شاهد عنفاً من قوات الأمن",
+        "ليلى تبحث عنه بقلق"
+      ],
+      "emotional_backdrop": "توتر عاطفي عالٍ"
+    },
+    
+    "participants": [
+      {
+        "character_id": "char_001",
+        "character_name": "أحمد الخطيب",
+        "age": 32,
+        "role_in_dialogue": "المبادر",
+        "emotional_state_start": "قلق ومتردد",
+        "emotional_state_end": "محبط لكن مصمم",
+        "lines_count": 4,
+        "word_count": 142,
+        "fsa_usage": 0.70,
+        "colloquial_usage": 0.30
+      },
+      {
+        "character_id": "char_003",
+        "character_name": "ليلى المنصوري",
+        "age": 28,
+        "role_in_dialogue": "المستجيب/المتحدي",
+        "emotional_state_start": "محبطة",
+        "emotional_state_end": "متعاطفة لكن صريحة",
+        "lines_count": 4,
+        "word_count": 145,
+        "fsa_usage": 0.40,
+        "colloquial_usage": 0.60
+      }
+    ],
+    
+    "exchanges": [
+      {
+        "exchange_number": 1,
+        "speaker": "char_001",
+        "speaker_name": "أحمد",
+        "text": "أنا... لا أدري إن كان ما فعلناه صائباً.",
+        "language": "fsa",
+        "emotion": "قلق",
+        "intensity": 0.75,
+        "speech_act": "اعتراف بالشك",
+        "paralinguistic": {
+          "tone": "متردد",
+          "volume": "منخفض",
+          "pace": "بطيء"
+        },
+        "non_verbal": "يحرك فنجان القهوة بعصبية، ينظر للأسفل",
+        "character_traits_revealed": ["التردد", "الصدق مع الذات"]
+      },
+      {
+        "exchange_number": 2,
+        "speaker": "char_003",
+        "speaker_name": "ليلى",
+        "text": "انت دايماً كده يا أحمد. كل مرة بعد ما نعمل حاجة صح، تبتدي تشك.",
+        "language": "colloquial_egyptian",
+        "emotion": "إحباط",
+        "intensity": 0.70,
+        "speech_act": "لوم + تذكير بنمط سلوكي",
+        "paralinguistic": {
+          "tone": "محبط لكن حنون",
+          "volume": "متوسط",
+          "pace": "أسرع من أحمد"
+        },
+        "non_verbal": "تهز رأسها، تنظر إليه مباشرة",
+        "character_traits_revealed": ["الصراحة", "الصبر المحدود"]
+      },
+      {
+        "exchange_number": 3,
+        "speaker": "char_001",
+        "speaker_name": "أحمد",
+        "text": "لكن هذا ليس شكاً عادياً يا ليلى... رأيت الخوف في عيون الناس.",
+        "language": "fsa",
+        "emotion": "قلق عميق",
+        "intensity": 0.80,
+        "speech_act": "دفاع + تبرير",
+        "paralinguistic": {
+          "tone": "دفاعي لكن هادئ",
+          "volume": "منخفض",
+          "pace": "بطيء ومتأني"
+        },
+        "non_verbal": "يرفع عينيه لينظر إليها، ينحني نحوها قليلاً",
+        "character_traits_revealed": ["الحساسية", "التعاطف مع الآخرين"]
+      },
+      {
+        "exchange_number": 4,
+        "speaker": "char_003",
+        "speaker_name": "ليلى",
+        "text": "طبيعي يخافوا. الخوف مش عيب. العيب انك تستسلم له.",
+        "language": "colloquial_egyptian",
+        "emotion": "عزم",
+        "intensity": 0.85,
+        "speech_act": "تطمين + نصيحة + دفع للأمام",
+        "paralinguistic": {
+          "tone": "حاسم، حنون",
+          "volume": "متوسط",
+          "pace": "بطيء للتأكيد"
+        },
+        "non_verbal": "تضع يدها على يده، تثبت نظرها عليه",
+        "character_traits_revealed": ["الحكمة", "القوة الداخلية", "الدعم"],
+        "memorable_quote": true
+      },
+      {
+        "exchange_number": 5,
+        "speaker": "char_001",
+        "speaker_name": "أحمد",
+        "text": "وإن كنتُ أستسلم له كل يوم؟",
+        "language": "fsa",
+        "emotion": "ضعف/اعتراف",
+        "intensity": 0.85,
+        "speech_act": "سؤال بلاغي - اعتراف بالضعف",
+        "paralinguistic": {
+          "tone": "منكسر",
+          "volume": "منخفض جداً",
+          "pace": "بطيء"
+        },
+        "non_verbal": "يغمض عينيه لثانية، صوته يرتجف قليلاً",
+        "character_traits_revealed": ["الصدق القاسي مع النفس", "الضعف"]
+      },
+      {
+        "exchange_number": 6,
+        "speaker": "char_003",
+        "speaker_name": "ليلى",
+        "text": "لكنك كنت معانا النهارده في الميدان. ده مش استسلام.",
+        "language": "colloquial_egyptian",
+        "emotion": "إصرار على التأكيد",
+        "intensity": 0.78,
+        "speech_act": "تصحيح + تطمين",
+        "paralinguistic": {
+          "tone": "حازم ودافئ",
+          "volume": "متوسط",
+          "pace": "متوسط"
+        },
+        "non_verbal": "تضغط على يده بلطف، ابتسامة خفيفة",
+        "character_traits_revealed": ["الإصرار", "رؤية الجانب الإيجابي"]
+      },
+      {
+        "exchange_number": 7,
+        "speaker": "char_001",
+        "speaker_name": "أحمد",
+        "text": "كنت معكم جسداً... لكن قلبي كان يرتجف.",
+        "language": "fsa",
+        "emotion": "اعتراف صادق",
+        "intensity": 0.80,
+        "speech_act": "اعتراف بالخوف",
+        "paralinguistic": {
+          "tone": "صادق، عاري",
+          "volume": "منخفض",
+          "pace": "بطيء"
+        },
+        "non_verbal": "يضع يده على قلبه",
+        "character_traits_revealed": ["الصدق", "الضعف", "الشجاعة في الاعتراف"]
+      },
+      {
+        "exchange_number": 8,
+        "speaker": "char_003",
+        "speaker_name": "ليلى",
+        "text": "والله العظيم، قلبي كمان كان بيرتجف. لكن الفرق إني ماسيبتش الخوف يشلّني.",
+        "language": "colloquial_egyptian",
+        "emotion": "تعاطف + قوة",
+        "intensity": 0.88,
+        "speech_act": "مشاركة الضعف + تأكيد الفرق",
+        "paralinguistic": {
+          "tone": "متعاطف لكن حازم",
+          "volume": "متوسط إلى عالٍ قليلاً",
+          "pace": "متوسط"
+        },
+        "non_verbal": "تمسك بيديه بكلتا يديها، تنظر في عينيه مباشرة",
+        "character_traits_revealed": ["التعاطف", "الشجاعة", "المشاركة الوجدانية"],
+        "memorable_quote": true
+      }
+    ],
+    
+    "dialogue_analysis": {
+      "power_dynamics": "متساوٍ",
+      "intimacy_level": 0.85,
+      "conflict_level": 0.60,
+      "resolution_level": 0.55,
+      "emotional_arc": "من القلق إلى التفاهم الجزئي",
+      "relationship_impact": "يعمق العلاقة - كشف ضعف متبادل",
+      "plot_impact": "نقطة تحول - أحمد يعترف بضعفه لأول مرة",
+      "theme_exploration": ["الخوف مقابل الشجاعة", "الصدق في العلاقات"],
+      "foreshadowing": "يشير لخلاف أكبر قادم حول الالتزام"
+    },
+    
+    "linguistic_features": {
+      "code_switching_pattern": "أحمد يستخدم فصحى، ليلى تستخدم عامية",
+      "code_switching_significance": "يعكس شخصيتيهما - هو مفكر، هي عملية",
+      "dominant_register": "مزيج",
+      "formality_level": "غير رسمي - حميم",
+      "total_fsa_percentage": 0.55,
+      "total_colloquial_percentage": 0.45
+    },
+    
+    "training_applications": {
+      "dialogue_generation": "نموذج لحوار عاطفي مع صراع",
+      "emotion_recognition": "تحديد المشاعر من النص",
+      "relationship_extraction": "استنتاج نوع العلاقة",
+      "character_consistency": "التحقق من اتساق الشخصية",
+      "code_switching": "تحليل التبديل اللغوي"
+    }
+  }
+]

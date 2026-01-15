@@ -1,0 +1,2 @@
+{"character_id": "char_001", "novel_id": "novel_001", "name": "أحمد الخطيب", "age": 32, "gender": "ذكر", "role": "بطل", "traits": ["شجاع", "متردد", "عاطفي"], "occupation": "مدرس", "fsa_usage": 0.65, "colloquial_usage": 0.3}
+{"character_id": "char_002", "novel_id": "novel_001", "name": "ليلى المنصوري", "age": 28, "gender": "أنثى", "role": "حبيبة", "traits": ["ذكية", "مستقلة", "شجاعة"], "occupation": "صحفية", "fsa_usage": 0.7, "colloquial_usage": 0.25}

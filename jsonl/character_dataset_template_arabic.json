@@ -1,0 +1,174 @@
+{
+  "character_profile": {
+    "metadata": {
+      "dataset_version": "1.0",
+      "language": "arabic",
+      "last_updated": "2026-01-11",
+      "schema_type": "comprehensive_character_profile"
+    },
+    
+    "basic_info": {
+      "character_id": "char_001",
+      "novel_id": "novel_001",
+      "novel_title": "ظلال التحرير",
+      
+      "identity": {
+        "full_name": "أحمد محمود الخطيب",
+        "first_name": "أحمد",
+        "middle_name": "محمود",
+        "last_name": "الخطيب",
+        "aliases": [
+          {"name": "أبو محمد", "type": "كنية", "frequency": "عالية"},
+          {"name": "الخطيب", "type": "لقب مهني", "frequency": "متوسطة"}
+        ]
+      }
+    },
+    
+    "demographics": {
+      "age": {"at_story_start": 32, "at_story_end": 35},
+      "gender": "ذكر",
+      "nationality": "مصري",
+      "residence": "القاهرة، مصر",
+      "social_class": "طبقة متوسطة",
+      "occupation": "مدرس لغة عربية",
+      "education": "بكالوريوس آداب - لغة عربية"
+    },
+    
+    "physical_appearance": {
+      "height": "175 سم",
+      "build": "متوسط البنية",
+      "eye_color": "بني غامق",
+      "hair_color": "أسود",
+      "distinctive_features": ["شامة صغيرة فوق الشفة", "نظارة قراءة"],
+      "typical_attire": "قميص وبنطال كلاسيكي"
+    },
+    
+    "personality": {
+      "primary_traits": [
+        {"trait": "الشجاعة الأخلاقية", "intensity": 0.8},
+        {"trait": "التردد", "intensity": 0.7},
+        {"trait": "العاطفية", "intensity": 0.85}
+      ],
+      "core_values": ["العدالة الاجتماعية", "العلم والمعرفة", "الأسرة"],
+      "fears": ["الفشل", "فقدان الأم", "الوحدة"],
+      "motivations": [
+        "إحداث فرق في حياة الطلاب",
+        "تحقيق الذات كروائي",
+        "العثور على الحب الحقيقي"
+      ]
+    },
+    
+    "relationships": {
+      "romantic": [
+        {
+          "character_name": "ليلى المنصوري",
+          "relationship_type": "حب متنامٍ",
+          "first_meeting_chapter": 3,
+          "dynamics": {"power_balance": "متساوٍ", "strengths": ["تفاهم فكري"]}
+        }
+      ],
+      "family": [
+        {
+          "character_name": "فاطمة (الأم)",
+          "relationship_type": "أم - ابن",
+          "relationship_quality": 0.95,
+          "bond_description": "علاقة حب عميق وارتباط قوي"
+        }
+      ],
+      "friendships": [
+        {
+          "character_name": "خالد السيد",
+          "friendship_type": "صديق مقرب",
+          "duration": "15 سنة",
+          "bond_strength": 0.90
+        }
+      ]
+    },
+    
+    "character_arc": {
+      "arc_type": "positive transformation arc",
+      "initial_state": {
+        "description": "شاب ساذج نسبياً، مثالي، يعيش في عالم الكتب",
+        "worldview": "الحياة يجب أن تكون عادلة"
+      },
+      "final_state": {
+        "description": "رجل ناضج يفهم تعقيدات الحياة",
+        "worldview": "الحياة معقدة، لكن الأمل ممكن"
+      },
+      "key_turning_points": [
+        {
+          "chapter": 5,
+          "event": "يشهد ضرب طالب من قبل ضابط",
+          "impact": "يدرك أن الحياد خيانة"
+        },
+        {
+          "chapter": 18,
+          "event": "مواجهة حاسمة في ميدان التحرير",
+          "impact": "يواجه قسوة الواقع"
+        }
+      ]
+    },
+    
+    "textual_presence": {
+      "narrative_role": "بطل - protagonist",
+      "total_mentions": 3842,
+      "dialogue_lines": 487,
+      "chapters_appeared": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+      
+      "speech_patterns": {
+        "signature_phrases": [
+          {"phrase": "والله", "frequency": 45},
+          {"phrase": "يعني", "frequency": 67}
+        ],
+        "language_register": {
+          "modern_standard_arabic": 0.65,
+          "egyptian_colloquial": 0.30,
+          "mixed": 0.05
+        }
+      }
+    },
+    
+    "cultural_context": {
+      "cultural_identity": "مصري عربي",
+      "religious_background": "مسلم",
+      "cultural_practices": [
+        "شرب الشاي الأحمر الثقيل",
+        "السهر في المقاهي"
+      ],
+      "generational_identity": "جيل الثمانينات"
+    },
+    
+    "memorable_quotes": [
+      {
+        "quote": "الحياة ليست بالأسود والأبيض، بل هي ظلال لا نهائية من الرمادي",
+        "chapter": 22,
+        "significance": "يلخص رحلته من المثالية للواقعية"
+      },
+      {
+        "quote": "سأظل أحلم، لأن التوقف عن الحلم هو الموت الحقيقي",
+        "chapter": 24,
+        "significance": "خلاصة شخصيته ورحلته"
+      }
+    ],
+    
+    "training_tasks": [
+      {
+        "task_type": "character_analysis",
+        "prompt": "حلل تطور شخصية أحمد الخطيب عبر الرواية",
+        "target_output": "تحليل يوضح تحوله من شاب ساذج إلى رجل ناضج..."
+      },
+      {
+        "task_type": "dialogue_generation",
+        "prompt": "اكتب حواراً بين أحمد وصديقه حول معنى الشجاعة",
+        "context": "بعد مشاهدة حدث عنيف في مظاهرة",
+        "style_markers": ["فلسفي", "عاطفي", "مزيج عامية وفصحى"]
+      },
+      {
+        "task_type": "sentiment_analysis",
+        "text": "أحمد يجلس وحيداً في غرفته، يفكر في كل ما خسره",
+        "target_sentiment": "حزن",
+        "intensity": 0.8
+      }
+    ]
+  }
+}

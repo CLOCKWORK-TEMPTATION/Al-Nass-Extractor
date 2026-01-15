@@ -1,0 +1,145 @@
+[
+  {
+    "file": "أولاد_حارتنا.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 102111,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\أولاد_حارتنا.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\أولاد_حارتنا.txt.json"
+  },
+  {
+    "file": "الحرافيش (3).epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 79272,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\الحرافيش (3).txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\الحرافيش (3).txt.json"
+  },
+  {
+    "file": "السكرية.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 78798,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\السكرية.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\السكرية.txt.json"
+  },
+  {
+    "file": "السمان_والخريف.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 26880,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\السمان_والخريف.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\السمان_والخريف.txt.json"
+  },
+  {
+    "file": "الشحاذ.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 23791,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\الشحاذ.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\الشحاذ.txt.json"
+  },
+  {
+    "file": "الطريق.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 29377,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\الطريق.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\الطريق.txt.json"
+  },
+  {
+    "file": "القاهرة_الجديدة.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 44084,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\القاهرة_الجديدة.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\القاهرة_الجديدة.txt.json"
+  },
+  {
+    "file": "ثرثرة_فوق_النيل.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 25898,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\ثرثرة_فوق_النيل.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\ثرثرة_فوق_النيل.txt.json"
+  },
+  {
+    "file": "زقاق_المدق.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 66601,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\زقاق_المدق.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\زقاق_المدق.txt.json"
+  },
+  {
+    "file": "قصر_الشوق.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 115371,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\قصر_الشوق.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\قصر_الشوق.txt.json"
+  },
+  {
+    "file": "همس_الجنون.epub",
+    "status": "success",
+    "method": "ebooklib",
+    "word_count": 60290,
+    "output_txt": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\همس_الجنون.txt",
+    "output_json": "E:\\arabic_novel_dataset\\Al-Nass-Extractor\\input\\همس_الجنون.txt.json"
+  },
+  {
+    "file": "أولاد_حارتنا.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "الحرافيش (1).kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "السكرية (1).kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "السمان_والخريف.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "الشحاذ.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "الطريق.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "القاهرة_الجديدة.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "ثرثرة_فوق_النيل.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "زقاق_المدق.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "قصر_الشوق.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  },
+  {
+    "file": "همس_الجنون.kfx",
+    "status": "skipped",
+    "reason": "KFX requires calibre with DeDRM plugin"
+  }
+]
