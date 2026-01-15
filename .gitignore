@@ -49,3 +49,11 @@ demo_blank_fix.js
 # Logs
 logs/
 *.log
+
+# Data directories
+ingestion_output/
+input/
+input for convert/
+jsonl/
+metadata_output/
+py/
